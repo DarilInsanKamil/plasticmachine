@@ -1,2 +1,4 @@
 import { Button } from "./button";
-export { Button }
+import { InputText } from "./input";
+import { Gap } from "./gap";
+export { Button, InputText, Gap }

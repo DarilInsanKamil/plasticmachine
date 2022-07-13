@@ -1,0 +1,26 @@
+.listmachine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.listmachine-subcontainer {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.listmachine-title {
+}
+.listmachine-desc {
+  color: rgba(0, 0, 0, 0.5);
+}
+.listmachine-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 36px;
+}
+@media (max-width: 768px) {
+  .listmachine-list {
+      justify-content: center;
+  }
+}

@@ -1,0 +1,35 @@
+.landingpage-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.landingpage-img {
+  height: fit-content;
+  width: 500px;
+  object-fit: contain;
+}
+
+.landingpage-subcontainer {
+}
+.landingpage-title {
+    width: 300px;
+}
+.landingpage-desc {
+}
+.button-product {
+  display: none;
+}
+.button-container {
+  display: flex;
+}
+
+@media(max-width: 768px) {
+  .landingpage-container {
+    flex-direction: column;
+  }
+  .button-product {
+    display: block;
+  }
+}

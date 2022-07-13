@@ -1,10 +1,9 @@
 import React from "react"
-import { ButtonStyled } from "../../components.styled";
-
+import './index.css'
 export const Button = ({ value, ...rest }) => {
     return (
-        <ButtonStyled {...rest}>
+        <button className="buttonstyle" {...rest}>
             {value}
-        </ButtonStyled>
+        </button>
     )
 }
