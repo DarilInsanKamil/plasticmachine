@@ -1,4 +1,5 @@
-import './inputstyles.css'
+import './style.css'
+
 export const InputText = ({ ...rest }) => {
-    return <input className="inputstyle" {...rest}/>
+    return <input className="inputstyle" {...rest} />
 }

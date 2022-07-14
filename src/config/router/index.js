@@ -1,7 +1,7 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LayoutPage } from "../../components";
-import DetailPage from "../../pages/detailpage";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { LayoutPage } from '../../components'
+import DetailPage from '../../pages/detailpage'
 
 export const Routers = () => {
     return (

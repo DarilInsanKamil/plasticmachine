@@ -1,3 +1,4 @@
-import { LandingPage } from './LandingPage';
-import { ListMachine } from './ListMachine';
-export { LandingPage, ListMachine }
+import { Home } from './home'
+import { Documentation } from './documentation'
+import { ProductDetail } from './productdetail'
+export { Home, Documentation, ProductDetail }

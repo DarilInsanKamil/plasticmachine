@@ -1,3 +1,3 @@
 import { Routers } from './router'
 
-export {Routers}
+export { Routers }
