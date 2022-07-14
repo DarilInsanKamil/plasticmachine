@@ -1,5 +1,6 @@
-import "./index.css";
-import { Button, Gap } from "../../atom";
+import './style.css'
+import { Button, Gap } from '../../atom'
+
 export const Card = ({ img, title }) => {
   return (
     <div className="card-container">
@@ -25,5 +26,5 @@ export const Card = ({ img, title }) => {
         />
       </div>
     </div>
-  );
-};
+  )
+}

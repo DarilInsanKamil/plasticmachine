@@ -1,4 +1,6 @@
-import { Card } from "../../moleculs";
+import { Card } from '../../moleculs'
+import './style.css'
+
 export const CardItem = ({ datas }) => {
   return (
     <>
@@ -6,5 +8,5 @@ export const CardItem = ({ datas }) => {
         <Card img={val.image} title={val.title} key={i} />
       ))}
     </>
-  );
-};
+  )
+}

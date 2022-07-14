@@ -1,6 +1,5 @@
-import { Button, Gap, InputText } from "../../atom";
-import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Button, Gap, InputText } from '../../atom'
+import './style.css'
 
 export const Navbar = () => {
   return (
@@ -25,5 +24,5 @@ export const Navbar = () => {
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}

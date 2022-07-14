@@ -1,6 +1,6 @@
-import { LandingPage } from "./LandingPage";
-import { ListMachine } from "./ListMachine";
-import { Footers } from "./footer";
-import { Navbar } from "./navbar";
-import { CardItem } from "./carditem";
-export { LandingPage, ListMachine, Footers, Navbar, CardItem }
+import { Jumbotron } from './jumbotron'
+import { ProductList } from './productlist'
+import { Footer } from './footer'
+import { Navbar } from './navbar'
+import { CardItem } from './carditem'
+export { Jumbotron, ProductList, Footer, Navbar, CardItem }
