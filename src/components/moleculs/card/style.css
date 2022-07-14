@@ -1,16 +1,13 @@
 .card-container {
-<<<<<<< Updated upstream:src/components/moleculs/card/style.css
   margin: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
   border-radius: 8px;
-=======
-    margin: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
->>>>>>> Stashed changes:src/components/moleculs/card/index.css
+  margin: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
 }
 .card-img {
   height: fit-content;

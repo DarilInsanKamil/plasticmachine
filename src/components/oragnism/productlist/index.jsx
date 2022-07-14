@@ -1,18 +1,9 @@
-<<<<<<< Updated upstream:src/components/oragnism/productlist/index.js
-import React from 'react'
-import './style.css'
-import { getInitialData } from '../../../utils/data'
-import { CardItem } from '../carditem'
-
-export const ProductList = () => {
-=======
 import React from "react"
 // import { Card } from "../../moleculs"
-import './listmachine.css'
+import './style.css'
 import { getInitialData } from "../../../utils/data"
 import { CardItem } from "../carditem"
-export const ListMachine = ({refs}) => {
->>>>>>> Stashed changes:src/components/oragnism/ListMachine/index.js
+export const ProductList = ({ refs }) => {
     let Data = getInitialData()
     return (
         <div className="listmachine-container" ref={refs}>

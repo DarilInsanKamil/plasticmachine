@@ -1,17 +1,8 @@
-<<<<<<< Updated upstream:src/components/oragnism/jumbotron/index.jsx
-import React from 'react'
-import { Button, Gap } from '../..'
-import { LandingImage } from '../../../assets'
-import './style.css'
-
-export const Jumbotron = () => {
-=======
 import { Button, Gap } from "../..";
 import { LandingImage } from "../../../assets";
-import "./landingpage.css";
+import "./style.css";
 
-export const LandingPage = ({ Scroll }) => {
->>>>>>> Stashed changes:src/components/oragnism/LandingPage/index.jsx
+export const Jumbotron = ({ Scroll }) => {
   return (
     <div className="landingpage-container">
       <img
@@ -28,11 +19,6 @@ export const LandingPage = ({ Scroll }) => {
         <Gap height="16px" />
         <div className="button-container">
           <Button value="Hubungi Saya" />
-<<<<<<< Updated upstream:src/components/oragnism/jumbotron/index.jsx
-          <Gap width='10px' />
-          <div className="button-product">
-            <Button value="List Product" style={{ backgroundColor: 'transparent', border: '1px solid black', color: 'black' }} />
-=======
           <Gap width="10px" />
           <div className="button-product">
             <Button
@@ -44,7 +30,6 @@ export const LandingPage = ({ Scroll }) => {
               }}
               onClick={Scroll}
             />
->>>>>>> Stashed changes:src/components/oragnism/LandingPage/index.jsx
           </div>
         </div>
       </div>
