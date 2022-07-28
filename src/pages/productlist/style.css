@@ -1,0 +1,25 @@
+.productlist-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productlist-container{ 
+  padding: 20px 50px;
+}
+.productlist-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .productlist-card {
+    justify-content: center;
+  }
+  .productlist-container{
+    padding: 20px 0px;
+  }
+  .productlist-header {
+    padding: 0px 24px;
+  }
+}

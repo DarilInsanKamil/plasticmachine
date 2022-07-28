@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.css'
 
-export const Button = ({ value, ...rest }) => {
+export const Button = ({ txt, ...rest }) => {
     return (
         <button className="buttonstyle" {...rest}>
-            {value}
+            {txt}
         </button>
     )
 }

@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { Button, Gap } from "../..";
 import { LandingImage } from "../../../assets";
 import "./style.css";
+import React from 'react'
 
-export const Jumbotron = ({ Scroll }) => {
+export const Jumbotron = () => {
+  let navigate = useNavigate()
   return (
     <div className="landingpage-container">
       <img
@@ -18,17 +21,17 @@ export const Jumbotron = ({ Scroll }) => {
         </p>
         <Gap height="16px" />
         <div className="button-container">
-          <Button value="Hubungi Saya" />
+          <Button txt="Hubungi Saya" />
           <Gap width="10px" />
           <div className="button-product">
             <Button
-              value="List Product"
+              txt="List Product"
               style={{
                 backgroundColor: "transparent",
-                border: "1px solid black",
-                color: "black",
+                border: "1px solid #3B82F6",
+                color: "#3B82F6",
               }}
-              onClick={Scroll}
+              onClick={() => navigate('productlist')}
             />
           </div>
         </div>

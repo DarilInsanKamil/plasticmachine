@@ -1,17 +1,16 @@
 .card-container {
-  margin: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 20px;
   border-radius: 8px;
-  margin: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
   padding: 20px;
-  border-radius: 8px;
-  width: 100%;
+  z-index: -1;
+  margin: 16px;
 }
 .card-img {
   height: fit-content;
-  width: 300px;
+  width: 280px;
 }
 .card-button-container {
   display: flex;
