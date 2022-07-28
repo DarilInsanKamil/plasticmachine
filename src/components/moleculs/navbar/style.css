@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navabar-title {
+  cursor: pointer;
+}
+.navbar-buttonlist {
+  display: flex;
+  list-style-type: none;
+}
+@media(max-width: 768px) {
+  .navbar-container {
+    padding: 10px 20px;
+  }
+  .navbar-buttonlist {
+    display: none;
+  }
+}

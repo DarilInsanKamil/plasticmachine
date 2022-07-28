@@ -1,7 +1,7 @@
 import './style.css'
 import { Button, Gap } from '../../atom'
-
-export const Card = ({ img, title }) => {
+import React from 'react'
+export const Card = ({ img, title, onDetail, onContact, value }) => {
   return (
     <div className="card-container">
       <img src={img} alt="card-img" className="card-img" />
@@ -9,10 +9,12 @@ export const Card = ({ img, title }) => {
       <Gap height="16px" />
       <div className="card-button-container">
         <Button
-          value="Detail"
+          txt="Detail"
           style={{
             width: "100%",
           }}
+          onClick={onDetail}
+          value={value}
         />
         <Gap width="16px" />
         <Button
@@ -22,7 +24,9 @@ export const Card = ({ img, title }) => {
             border: "1px solid #3B82F6",
             width: "100%",
           }}
-          value="Hubungi saya"
+          txt="Hubungi saya"
+          onClick={onContact}
+          value={value}
         />
       </div>
     </div>
