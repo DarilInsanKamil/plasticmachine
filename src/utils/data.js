@@ -84,6 +84,14 @@ const getInitialData = () => ([
     },
 ]);
 
+const options = [
+    { value: "", text: "--Choose an option--" },
+    { value: "molding", text: "Molding" },
+    { value: "chiller", text: "Chiller" },
+    { value: "blowing", text: "Blowing" },
+    { value: "dryer", text: "Dryer" },
+];
 
 
-export { getInitialData };
+
+export { getInitialData, options };
